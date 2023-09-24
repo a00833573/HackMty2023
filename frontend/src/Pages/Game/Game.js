@@ -56,9 +56,9 @@ const EmergencyContactsTable = () => {
 const Game = () => {
   return (
     <div className="row">
-      <div className="col-6 px-4 my-3 d-flex justify-content-center align-items-center" style={{ backgroundColor: 'rgb(212, 212, 212)', borderRadius: '15px' }}>
+      <div className="col-6 px-4 my-3 d-flex justify-content-center align-items-center" style={{ backgroundColor: '#1cc3d9', borderRadius: '15px' }}>
         <div>
-          <h1>Contacto de emergencia</h1>
+          <h1 >Contacto de emergencia</h1>
           <EmergencyContactsTable />
         </div>
       </div>

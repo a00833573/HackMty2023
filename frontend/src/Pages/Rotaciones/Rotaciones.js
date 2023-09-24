@@ -20,7 +20,7 @@ const Rotaciones = () => {
   };
 
   return (
-    <div className="container" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', backgroundColor: '#f0f0f0' }}>
+    <div className="container" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', backgroundColor: '#1cc3d9' }}>
       <div style={{ maxWidth: '400px', padding: '20px', borderRadius: '10px', backgroundColor: 'white', boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)' }}>
         <h1 style={{ marginBottom: '20px', textAlign: 'center' }}>Formulario de Reporte</h1>
         <form onSubmit={handleSubmit}>

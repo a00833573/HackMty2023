@@ -14,7 +14,7 @@ const Login = () => {
             {/*Sirve para dividir espacio*/}
             <div className="col"></div>
 
-            <div className="col" style={{ backgroundColor: 'rgb(255, 153, 0)' }}>
+            <div className="col" style={{ backgroundColor: '#1cc3d9' }}>
               <h6 className='text-center my-3'> Ingresa a tu cuenta </h6>
 
               {/*LOGIN*/}
