@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import foto from "../../Images/emergencia.jpg";
 
 const EmergencyContactsTable = () => {
   const [contacts, setContacts] = useState([]);
@@ -15,7 +16,7 @@ const EmergencyContactsTable = () => {
   };
 
   return (
-    <div>
+    <div style={{ borderRadius: '15px', padding: '15px', backgroundColor: 'white' }}>
       <table>
         <thead>
           <tr>
@@ -36,36 +37,37 @@ const EmergencyContactsTable = () => {
       <div>
         <input
           type="text"
-          placeholder="Enter name"
+          placeholder="Ingresa nombre"
           value={newContact.name}
           onChange={(e) => handleInputChange(e, 'name')}
         />
         <input
           type="text"
-          placeholder="Enter number"
+          placeholder="Ingresa número"
           value={newContact.number}
           onChange={(e) => handleInputChange(e, 'number')}
         />
-        <button onClick={handleAddContact}>Add Contact</button>
+        <button onClick={handleAddContact}>Agregar contacto</button>
       </div>
     </div>
   );
 };
 
 const Game = () => {
-    return (
-      <div className="row">
-        <div className="col-6 px-4 my-3" style={{ backgroundColor: 'rgb(212, 212, 212)' }}>
-          <h1>Emergency Contacts</h1>
+  return (
+    <div className="row">
+      <div className="col-6 px-4 my-3 d-flex justify-content-center align-items-center" style={{ backgroundColor: 'rgb(212, 212, 212)', borderRadius: '15px' }}>
+        <div>
+          <h1>Contacto de emergencia</h1>
           <EmergencyContactsTable />
         </div>
-  
-        <div className="col-6">
-            <img src="..." class="img-fluid" alt="..."></img>
-        </div>
       </div>
-    );
-  };
-  
+
+      <div className="col-6 px-4 my-3" style={{ borderRadius: '15px' }}>
+        <img src={foto} className="img-fluid" style={{ borderRadius: '15px' }} />
+      </div>
+    </div>
+  );
+};
 
 export default Game;

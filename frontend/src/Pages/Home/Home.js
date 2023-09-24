@@ -28,18 +28,6 @@ const Home = () => {
       {/* SECTION 2 MISION VISION & VALUES*/}
       <Seguridad/>
 
-      {/*SECTION 3 REDIRECCIÓN*/}
-      <section className="section">
-        <div className="container">
-          <div className="row">
-            <div className='col-md-12 text-center'>
-              <h3 className='main-heading'>Utiliza nuestros servicios</h3>
-              <div className='underline mx-auto'></div>
-              <button className="btn btn-primary">Pruébalo ahora</button>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <Footer/>
     </div>
