@@ -1,0 +1,30 @@
+.cardprofile{
+    margin: 2rem 2rem 2rem 1rem;
+    padding:1.5rem;
+    width:400px;
+    box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.1);
+    transition: transform .3s ease;
+    cursor: pointer
+}
+
+.cardareas{
+    margin: 2rem 2rem 2rem 0.5rem;
+    padding:1.5rem;
+    width:390px;
+    box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.1);
+    transition: transform .3s ease;
+    cursor: pointer
+}
+
+.cardprofile:hover{
+    transform: scale(1.1);
+}
+
+.cardareas:hover{
+    transform: scale(1.1);
+}
+
+.cardprofile_title{
+    font-weight: 800;
+    font-size: 1.5rem;
+}

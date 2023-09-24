@@ -1,0 +1,54 @@
+.logo-image {
+    max-width: 90px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+  
+.underline {
+    height: 1px;
+    background-color: black;
+}
+
+.border-custom {
+    border-radius: 10px 10px 10px 10px;
+}
+
+.profile-image {
+    border-radius: 50%;
+    max-width: 170px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.profile-image-2 {
+    border-radius: 10px 10px 10px 10px;
+    max-width: 150px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.header5 {
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+.p1 {
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+}
+
+.vertical-line {
+    width: 2px; /* Adjust the width as needed */
+    background-color: black; /* Adjust the color as needed */
+    height: 100%;
+    margin-left: 23px;
+    margin-right: 15px;
+}
