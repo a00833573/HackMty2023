@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
-import foto from "../Images/mapa.png";
+import foto from "../Images/logo.png";
 import { connect } from "react-redux";
 import { onLogout } from "../api/auth";
 import { unauthenticateAdmin, unauthenticateUser } from "../redux/slices/auth_slice";
