@@ -29,7 +29,7 @@ const Rotaciones = () => {
             <input type="text" id="calle" name="calle" value={report.calle} onChange={handleInputChange} className="form-control" />
           </div>
           <div className="form-group">
-            <label htmlFor="hora">Hora:</label>
+            <label htmlFor="hora">Fecha:</label>
             <input type="text" id="hora" name="hora" value={report.hora} onChange={handleInputChange} className="form-control" />
           </div>
           <div className="form-group">
