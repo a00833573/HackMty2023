@@ -18,7 +18,7 @@ const Home = () => {
               <h3 className='main-heading'>Nuestra compañia</h3>
               <div className='underline mx-auto'></div>
               <p>
-              Contrariamente a la creencia popular, Lorem Ipsum no es simplemente un texto aleatorio. Tiene sus raíces en una pieza de la literatura latina clásica del 45 a. C., por lo que tiene más de 2000 años. Richard McClintock, profesor de latín en Hampden-Sydney College en Virginia, buscó una de las palabras latinas más oscuras, consectetur, en un pasaje de Lorem Ipsum, y al revisar las citas de la palabra en la literatura clásica, descubrió la fuente indudable. Lorem Ipsum proviene de las secciones 1.10.32 y 1.10.33 de "de
+              Nuestro proyecto, dedicado a la seguridad en el distrito Tec, es una iniciativa apasionada que tiene como objetivo principal empoderar a la comunidad local a través del conocimiento y la información. En un mundo en constante cambio, creemos que la seguridad es fundamental para el bienestar de todos. Por eso, hemos desarrollado una herramienta de mapeo innovadora que brinda una visión clara y actualizada de la situación de seguridad en esta vibrante zona.
               </p>
             </div>
           </div>

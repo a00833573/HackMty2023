@@ -6,7 +6,7 @@ function Seguridad() {
         <div className="container">
           <div className="row">
             <div className='col-md-12 mb-5 text-center'>
-              <h3 className='main-heading'>Recomendacioes de Seguridad</h3>
+              <h3 className='main-heading'>Recomendaciones de Seguridad</h3>
               <div className='underline mx-auto'></div>
             </div>
 
