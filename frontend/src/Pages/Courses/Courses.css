@@ -6,3 +6,24 @@
 .border-custom {
     border-radius: 10px 10px 10px 10px;
 }
+
+.btn-custom2 {
+    background-color: rgb(104, 104, 104);
+    color: #ffffff;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.btn-custo2m:hover {
+    background-color: #484a52;
+}
+
+/* Estilo adicional para el botón */
+.rounded-button {
+    border-radius: 100%;
+}

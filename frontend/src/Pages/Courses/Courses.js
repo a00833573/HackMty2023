@@ -16,6 +16,14 @@ const Map = () => {
   );
 };
 
+const openWhatsAppChat = () => {
+  const phoneNumber = '+52 1 81 2032 1792'; // Reemplaza con el número de teléfono al que deseas enviar el mensaje
+  const message = 'Estoy en zona de peligro, quedate atento de mi.'; // Reemplaza con el mensaje que deseas enviar
+
+  const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
+  window.open(url, '_blank');
+};
+
 const Courses = () => {
   return (
     <div>
@@ -26,6 +34,14 @@ const Courses = () => {
       <div className='container'>
         <Map />
       </div>
+
+      <div>
+        <div id="map" style={{ height: '400px' }}></div>
+        <button className="btn-custom2 rounded-button" onClick={openWhatsAppChat}>
+          Click me
+        </button>
+      </div>
+
     </div>
   );
 };
