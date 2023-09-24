@@ -55,13 +55,13 @@ const EmergencyContactsTable = () => {
 const Game = () => {
     return (
       <div className="row">
-        <div className="col-6">
+        <div className="col-6 px-4 my-3" style={{ backgroundColor: 'rgb(212, 212, 212)' }}>
           <h1>Emergency Contacts</h1>
           <EmergencyContactsTable />
         </div>
   
         <div className="col-6">
-            <h1>HOLA</h1>
+            <img src="..." class="img-fluid" alt="..."></img>
         </div>
       </div>
     );
