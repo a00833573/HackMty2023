@@ -88,3 +88,16 @@
     color: #6a6a6a;
     margin: 1.5rem 0rem;
   }
+
+  .btn.btn-primary {
+    background-color: blue; /* Cambia el color de fondo según tus preferencias */
+    color: white; /* Cambia el color del texto según tus preferencias */
+    padding: 10px 20px; /* Ajusta el relleno para el tamaño del botón */
+    border: none; /* Elimina el borde del botón si lo deseas */
+    border-radius: 5px; /* Agrega bordes redondeados si lo deseas */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  }
+  
+  .btn.btn-primary:hover {
+    background-color: darkblue; /* Cambia el color de fondo al pasar el cursor */
+  }

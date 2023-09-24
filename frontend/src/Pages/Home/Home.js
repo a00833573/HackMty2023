@@ -2,7 +2,7 @@ import React from 'react';
 import './Home.css';
 import foto from "../../Images/banner.jpg";
 import Slider from '../../Components/Slides';
-import VMC from './VMC';
+import Seguridad from './Seguridad';
 import Footer from '../../Components/Footer';
 //console.log(foto);
 
@@ -26,56 +26,17 @@ const Home = () => {
       </section>
 
       {/* SECTION 2 MISION VISION & VALUES*/}
-      <VMC/>
+      <Seguridad/>
 
-
-      {/*SECTION 3 SERVICES*/}
-      <section className="section border-top">
+      {/*SECTION 3 REDIRECCIÓN*/}
+      <section className="section">
         <div className="container">
           <div className="row">
-            <div className='col-md-12 mb-4 text-center'>
-              <h3 className='main-heading'>Nuestros servicios</h3>
+            <div className='col-md-12 text-center'>
+              <h3 className='main-heading'>Utiliza nuestros servicios</h3>
               <div className='underline mx-auto'></div>
+              <button className="btn btn-primary">Pruébalo ahora</button>
             </div>
-
-            <div className='col-md-4'>
-              <div className="card-shadow">
-                <img src={foto} className='w-100 border-bottom' alt="Services"/>
-                <div className='card-body'>
-                  <h6>Servicio 1</h6>
-                  <p style={{ textAlign: "justify" }}>
-                  Hay variaciones de pasajes de Lorem Ipsum disponibles, pero la mayoría ha sufrido alteraciones de alguna forma, por humor inyectado o palabras aleatorias que no parecen ni un poco creíbles. Si vas a usar un pasaje de Lorem Ipsum, debes asegurarte de que no haya nada vergonzoso escondido en medio del texto. Todo el saber
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className='col-md-4'>
-              <div className="card-shadow">
-                <img src={foto} className='w-100 border-bottom' alt="Services"/>
-                <div className='card-body'>
-                  <h6>Servicio 2</h6>
-                  <p style={{ textAlign: "justify" }}>
-                  Hay variaciones de pasajes de Lorem Ipsum disponibles, pero la mayoría ha sufrido alteraciones de alguna forma, por humor inyectado o palabras aleatorias que no parecen ni un poco creíbles. Si vas a usar un pasaje de Lorem Ipsum, debes asegurarte de que no haya nada vergonzoso escondido en medio del texto. Todo el saber
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className='col-md-4'>
-              <div className="card-shadow">
-                <img src={foto} className='w-100 border-bottom' alt="Services"/>
-                <div className='card-body'>
-                  <h6>Servicio 3</h6>
-                  <p style={{ textAlign: "justify" }}>
-                  Hay variaciones de pasajes de Lorem Ipsum disponibles, pero la mayoría ha sufrido alteraciones de alguna forma, por humor inyectado o palabras aleatorias que no parecen ni un poco creíbles. Si vas a usar un pasaje de Lorem Ipsum, debes asegurarte de que no haya nada vergonzoso escondido en medio del texto. Todo el saber
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            
-
           </div>
         </div>
       </section>

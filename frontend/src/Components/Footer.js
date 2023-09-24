@@ -7,10 +7,10 @@ function Footer()
             <div className="container">
                 <div className="row">
                     <div className="col">
-                        <h6 className='text-center my-3'>Información de la compañia</h6>
+                        <h6 className='text-center my-3'>Sobre nuestra propuesta</h6>
                         <hr/>
                         <p style={{ textAlign: "justify" }}>
-                        Es un hecho establecido desde hace mucho tiempo que un lector se distraerá con el contenido legible de una página cuando mire su diseño. El punto de usar Lorem Ipsum es que tiene una distribución de letras más o menos normal, como opp
+                        Nuestro proyecto tiene como objetivo mejorar la seguridad y la calidad de vida en el Distrito Tec. Trabajamos incansablemente para proporcionar información valiosa y herramientas innovadoras que empoderen a nuestra comunidad.
                         </p>
                     </div>
                     <div className="col">
@@ -18,12 +18,12 @@ function Footer()
                         <hr/>
                         <div>
                             <p className="text-white mb-1" style={{ textAlign: "justify" }}>
-                                #64 Rio de la Plata Roma
+                                Zona Distrito Tec
                             </p>
                         </div>
                         <div>
                             <p className="text-white mb-1" style={{ textAlign: "justify" }}>
-                                8717341255
+                                81-1551-1551
                             </p>
                         </div>
                     </div>
