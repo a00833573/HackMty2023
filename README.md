@@ -1,6 +1,6 @@
 # HackMty2023
 
-GeoSafe es un proyecto dedicado a mejorar la seguridad y la conciencia en el Distrito Tec a través de soluciones innovadoras, manejando una red de comunicación directa y factible. 
+GeoSafe es un proyecto dedicado a mejorar la seguridad y la conciencia de todas las personas que transitan por el Distrito Tec a través de soluciones innovadoras, manejando una red de comunicación directa y factible. 
 
 Este repositorio alberga la estructura y funcionamiento interno del proyecto por medio del código fuente completo de la página web de GeoSafe, donde ofrecemos herramientas de mapeo y clasificación de dichas áreas en tiempo real, además de recursos de protección relacionados con la seguridad en esta comunidad.
 
